@@ -1,14 +1,11 @@
-# PNLS — Matlab Implementation of **Pixel-level Non-local Image Smoothing with Objective Evaluation**
-This repository contains the Matlab implementation of our paper **Pixel-level Non-local Image Smoothing with Objective Evaluation**
+# Matlab Implementation of "**Pixel-level Non-local Image Smoothing with Objective Evaluation**"
+This repository contains the Matlab implementation of our paper "**Pixel-level Non-local Image Smoothing with Objective Evaluation**"
 >
-> **Abstract:** With the rapid development of image processing techniques, image smoothing has gained increasing attention due to its important role in other image processing tasks, e.g., image editing and enhancement.
-However, the evaluation of image smoothing methods is subjectively performed on datasets without proper ground truth images. Therefore, an image smoothing benchmark with reasonable ground-truths is essential to prosper the image smoothing community.
+> **Abstract:** With the rapid development of image processing techniques, image smoothing has gained increasing attention due to its important role in other image processing tasks, e.g., image editing and enhancement. However, the evaluation of image smoothing methods is subjectively performed on datasets without proper ground truth images. Therefore, an image smoothing benchmark with reasonable ground-truths is essential to prosper the image smoothing community.
 In this paper, we construct a new Nankai Smoothing (NKS) dataset containing 200 versatile images blended by natural textures and structure images.
 The structure images are inherent smooth and can be safely taken as ground truths. On our NKS dataset, we comprehensively evaluate 14 popular image smoothing algorithms.
 Moreover, we propose a novel Pixel-level Non-Local Smoothing (PNLS) method, exploiting better the non-local self-similarity of natural images to well preserve the structure of the smoothed images. Extensive experiments on several benchmark datasets demonstrate that our PNLS is very effective on the image smoothing task.
 Comprehensive ablation studies also reveal the work mechanism of our PNLS on image smoothing.To further show its effectiveness, we apply the proposed PNLS on semantic region smoothing, detail/edge enhancement, and image abstraction.  
-
-This code is mainly written by Prof. Yingkun Hou (https://github.com/njusthyk1972).
 
 ## Contents
 - [Resources](https://github.com/zal0302/PNLS#resources)
@@ -21,7 +18,7 @@ This code is mainly written by Prof. Yingkun Hou (https://github.com/njusthyk197
 ## Resources
 Material related to our paper is available via the following links:
 - Paper: https://ieeexplore.ieee.org/document/9257021
-- Code: https://github.com/zal0302/PNLS
+- PNLS Code: https://github.com/zal0302/PNLS (This code is mainly written by Prof. Yingkun Hou, https://github.com/njusthyk1972.)
 - NKS dataset (Baidu Netdisk): https://pan.baidu.com/s/1bd0TlpZV1Nl71ziSYwG2Gg (**Extracted Code: ect6**)
 - NKS dataset (Google Drive): https://drive.google.com/drive/folders/1rsWLc7kpyM2VfGwY_Gu94TH2bnt3ywfV?usp=sharing
 
